@@ -9,7 +9,47 @@
 }
 
 html, body{
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: var(--baseColor);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: #FFF;
+}
+
+.baseContainer{
+    height: 100vh;
+    width: 100vw;
+    background: url('assets/images/mainImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+
+.mainBaseContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.mainBaseContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+}
+
+.descriptionContainer {
+    height: 100%;
+    width: 100%;
+    background-color: #00000099;
 }
